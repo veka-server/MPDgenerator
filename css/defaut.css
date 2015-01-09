@@ -1,0 +1,89 @@
+	#data {
+		display: none;
+	}
+	canvas {
+		border: 1px solid rgba(0,0,0,0.2);
+		display: inline-block;
+	}
+	h1 {
+		text-align: center;
+	}
+	#savebutton {
+		margin: auto;
+		text-align: center;
+	}
+	p {
+		display: block;
+		text-align: center;
+	}
+	#wrapper {
+		margin: auto;
+		text-align: center;
+	}
+	#mpdText {
+		text-align: left;
+		border:1px solid rgba(0,0,0,0.4);
+		background: rgba(0,0,0,0.2);
+		padding:20px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
+	table.dico {
+		border: 1px solid rgba(0,0,0,0.6);
+		width: 100%;
+		background: rgba(0,0,0,0.2);
+		border-collapse: collapse;
+		margin-top:10px;
+	}
+	table.dico tr {
+		padding: 3px 7px;
+		border: 1px solid rgba(0,0,0,0.6);
+	}
+	table.dico tr td {
+		padding: 3px 7px;
+		text-align: left;
+	}
+
+	table.dico tr:first-of-type td {
+		border: 1px solid rgba(0,0,0,0.7);
+		background: rgba(0,0,0,0.7);
+		color:white;
+		text-align: center;
+	}
+
+	#tabs-1 {
+		overflow: scroll;
+	}
+
+	#schema {
+		display: none;
+	}
+
+	.warning {
+		background: rgba(250,100,100,0.3);
+		border: 1px solid rgba(250,100,100,0.8);
+		padding:10px;
+		text-transform: uppercase;
+	}
+
+	#schema p.legend {
+		text-align: left;
+		font-size: 12px;
+		padding: 10px;
+	}
+
+	.resum {
+		text-align: left;
+		border: 1px solid rgba(0,0,0,0.3);
+		background: rgba(0,0,0,0.2);
+		padding:10px;
+		list-style: none;
+	}
+
+	#yuml {
+		font-size: 9px;
+		width: 100%;
+		height: 200px;
+	}
